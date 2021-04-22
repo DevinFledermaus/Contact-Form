@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Devin's Contact Form</title>
+    <link rel="stylesheet" href="./neu.css" />
+  </head>
+  <body>
+    <form
+      action="https://formspree.io/f/xleadzeo"
+      method="POST"
+      class="contact-form"
+    >
+      <h1 class="contact-heading">Contact Me</h1>
+      <!--Fullname-->
+      <div class="contact-div">
+        <label for="name" class="contact-info">Fullname</label>
+        <input
+          class="contact-input"
+          type="text"
+          name="name"
+          id="name"
+          placeholder="Fullname"
+          required
+        />
+      </div>
+      <!--Contact Number-->
+      <div class="contact-div">
+        <label for="number" class="contact-info">Contact Number</label>
+        <input
+          class="contact-input"
+          type="tel"
+          name="number"
+          id="number"
+          placeholder="021 345 6789"
+        />
+      </div>
+      <!--Email-->
+      <div class="contact-div">
+        <label for="email" class="contact-info">Email</label>
+        <input
+          class="contact-input"
+          type="email"
+          name="email"
+          id="email"
+          placeholder="name@domain.com"
+          required
+        />
+      </div>
+
+      <!--Message-->
+      <div class="contact-div">
+        <label for="message" class="contact-info">Your message:</label>
+        <textarea name="message" class="contact-info"></textarea>
+      </div>
+
+      <!-- your other form fields go here -->
+      <div class="button">
+        <button type="reset">Reset</button>
+      </div>
+      <div class="button">
+        <button type="submit">Send</button>
+      </div>
+    </form>
+  </body>
+</html>
