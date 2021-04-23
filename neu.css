@@ -24,7 +24,9 @@ body {
   flex-direction: column;
   margin: 20px;
   padding: 20px;
+  min-width: 100%;
 }
+
 .contact-info {
   display: flex;
   align-items: center;
@@ -38,6 +40,7 @@ body {
   margin: 10px;
   text-transform: capitalize;
   padding: 20px;
+  margin-top: -30px;
 }
 
 .contact-form {
@@ -51,9 +54,15 @@ body {
   padding: 100px;
 }
 
-.button {
+button {
   display: flex;
   flex-direction: row;
+  justify-content: center;
   color: black;
   padding: 10px;
+  min-width: 100%;
+  margin: 10px;
+  border-radius: 20px;
+  background: #767474;
+  box-shadow: inset 17px 17px 27px #403f3f, inset -17px -17px 27px #aca9a9;
 }
